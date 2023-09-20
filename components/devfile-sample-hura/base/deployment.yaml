@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hura
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0009-tenant/ci10t-777-0009-app/devfile-sample-hura@sha256:a3fe577135a5d6b836174fb57d7c4a5836dd95435a0893c71d84fabd609c4bba
         name: my-nodejs
         ports:
         - containerPort: 3001
